@@ -3,4 +3,3 @@ def year_of_birth(name,age):
     print(f"Hello{name} you were born in {year}")
 
 
-

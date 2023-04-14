@@ -17,3 +17,16 @@ def multiply(g,h):
 def remainder(i,j):
     answer = i%j
     return answer
+
+    
+def sum(*numbers):
+    answer = 0
+    for number in numbers:
+        answer+=number
+    return answer
+
+def product(*numbers):
+    answer =1
+    for number in numbers:
+        answer*=number
+    return answer
