@@ -9,16 +9,18 @@ def even_numbers():
             continue
         print(x)
 
-
 #Write a function that takes an integer argument 
 #and prints "Prime" if the number is prime, 
 #and "Not prime" if the number is not prime.
 
 def prime_number(a):
-    if a%a==0 and a%1==0:
-        print(f"{a} is a prime number")
+    if a<=1:
+        print("it is not a prime number")
+    for i in range(2,int(a**0.5)+1):
+        if a%i==0:
+            print("not prime")
     else:
-        print(f"{a} is not a prime number")
+        print("prime number")
 
 
 

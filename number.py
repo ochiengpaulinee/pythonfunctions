@@ -4,4 +4,6 @@
 # operation to each number in the list and return a new list of the results.
 
 def square(v):
-    for i in v:print(i**2)
+
+    for i in str(v):
+        print(int(i)**2)

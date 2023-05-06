@@ -30,3 +30,20 @@ def product(*numbers):
     for number in numbers:
         answer*=number
     return answer
+
+
+courses = ['biology','chemistry','compsci','religion']
+for course in courses:
+    print(course)
+
+
+
+
+# def sum_of_digits(num):
+#     b = 0
+#     for n in str(num):
+#         b += int(n)
+#     return b
+
+
+
