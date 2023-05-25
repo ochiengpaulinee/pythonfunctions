@@ -17,7 +17,6 @@ class Car:
     def acceleration(self,initial_speed,final_spedd,time):
         acceleration=(final_spedd-initial_speed)/time
         return f"the acceleration of the car is {acceleration}m/s2"
-        
 
 
 
